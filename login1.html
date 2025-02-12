@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fashionista</title>
+    <link rel="stylesheet" href="form.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+</head>
+
+<body>
+
+
+    <section id="header">
+        <img src="images/logo.png" alt="logo" class="logo">
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="login1.html">Login</a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+    </section>
+
+
+    <section id="form">
+        <div class="form-box">
+            <div class="form-value">
+                <form method="post" action="index.html">
+
+                    <h2>Login</h2>
+                    <div class="inputbox">
+                        <i class="fa-regular fa-envelope"></i>
+                        <input type="email" name="usermail" required>
+                        <label for="usermail">Usermail</label>
+                    </div>
+                    <div class="inputbox">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="text" name="password" required>
+                        <label for="pass">Password</label>
+                    </div>
+
+                    <button type="submit">Login</button>
+                    <div class="signin">
+                        <p>Don't have an account?<a href="registration.html">register now</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
